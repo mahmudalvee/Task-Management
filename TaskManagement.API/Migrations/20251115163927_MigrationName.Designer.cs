@@ -11,14 +11,35 @@ using TaskManagement.Data.Contexts;
 namespace TaskManagement.API.Migrations
 {
     [DbContext(typeof(TaskManagementDBContext))]
-    [Migration("20251101093114_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20251115163927_MigrationName")]
+    partial class MigrationName
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.10");
+
+            modelBuilder.Entity("TaskManagement.Class.Notification", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Notifications");
+                });
 
             modelBuilder.Entity("TaskManagement.Class.TTask", b =>
                 {
@@ -58,7 +79,7 @@ namespace TaskManagement.API.Migrations
 
                     b.HasIndex("TeamId");
 
-                    b.ToTable("Tasks");
+                    b.ToTable("TTasks");
                 });
 
             modelBuilder.Entity("TaskManagement.Class.Team", b =>
@@ -103,6 +124,10 @@ namespace TaskManagement.API.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("TEXT");
 

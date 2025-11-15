@@ -12,9 +12,9 @@ namespace TaskManagement.Data
 {
     public class NotificationRepository : INotificationRepository
     {
-        private readonly TaskManagementContext _ctx;
+        private readonly TaskManagementDBContext _ctx;
 
-        public NotificationRepository(TaskManagementContext ctx)
+        public NotificationRepository(TaskManagementDBContext ctx)
         {
             _ctx = ctx;
         }

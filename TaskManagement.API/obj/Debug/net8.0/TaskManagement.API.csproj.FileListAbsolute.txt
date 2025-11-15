@@ -10,6 +10,7 @@ D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\TaskManagement
 D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\TaskManagement.API.runtimeconfig.json
 D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\TaskManagement.API.dll
 D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\TaskManagement.API.pdb
+D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\BCrypt.Net-Core.dll
 D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\EntityFramework.SqlServer.dll
 D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\EntityFramework.dll
 D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\Humanizer.dll
@@ -52,6 +53,7 @@ D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\Microsoft.Iden
 D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
 D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\BouncyCastle.Crypto.dll
 D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\RabbitMQ.Client.dll
 D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\Serilog.dll
 D:\Selise Task\TaskManagement\TaskManagement.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
@@ -181,6 +183,7 @@ D:\Selise Task\TaskManagement\TaskManagement.API\obj\Debug\net8.0\TaskManagement
 D:\Selise Task\TaskManagement\TaskManagement.API\obj\Debug\net8.0\TaskManagement.API.csproj.CoreCompileInputs.cache
 D:\Selise Task\TaskManagement\TaskManagement.API\obj\Debug\net8.0\TaskManagement.API.MvcApplicationPartsAssemblyInfo.cs
 D:\Selise Task\TaskManagement\TaskManagement.API\obj\Debug\net8.0\TaskManagement.API.MvcApplicationPartsAssemblyInfo.cache
+D:\Selise Task\TaskManagement\TaskManagement.API\obj\Debug\net8.0\TaskManagement.API.sourcelink.json
 D:\Selise Task\TaskManagement\TaskManagement.API\obj\Debug\net8.0\scopedcss\bundle\TaskManagement.API.styles.css
 D:\Selise Task\TaskManagement\TaskManagement.API\obj\Debug\net8.0\staticwebassets.build.json
 D:\Selise Task\TaskManagement\TaskManagement.API\obj\Debug\net8.0\staticwebassets.development.json
@@ -198,4 +201,3 @@ D:\Selise Task\TaskManagement\TaskManagement.API\obj\Debug\net8.0\refint\TaskMan
 D:\Selise Task\TaskManagement\TaskManagement.API\obj\Debug\net8.0\TaskManagement.API.pdb
 D:\Selise Task\TaskManagement\TaskManagement.API\obj\Debug\net8.0\TaskManagement.API.genruntimeconfig.cache
 D:\Selise Task\TaskManagement\TaskManagement.API\obj\Debug\net8.0\ref\TaskManagement.API.dll
-D:\Selise Task\TaskManagement\TaskManagement.API\obj\Debug\net8.0\TaskManagement.API.sourcelink.json

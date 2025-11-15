@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OJwzgVp4ue0=",
+  "dgSpecHash": "y88hvdFAAc4=",
   "success": true,
   "projectFilePath": "D:\\Selise Task\\TaskManagement\\TaskManagement.Class\\TaskManagement.Class.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\CELDEV\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\CELDEV\\.nuget\\packages\\entityframework\\6.1.0\\entityframework.6.1.0.nupkg.sha512",
     "C:\\Users\\CELDEV\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.4\\microsoft.aspnet.identity.core.2.2.4.nupkg.sha512",
     "C:\\Users\\CELDEV\\.nuget\\packages\\microsoft.aspnet.identity.entityframework\\2.2.4\\microsoft.aspnet.identity.entityframework.2.2.4.nupkg.sha512",

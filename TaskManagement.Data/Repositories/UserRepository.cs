@@ -11,9 +11,9 @@ namespace TaskManagement.Data
 {
     public class UserRepository : IUserRepository
     {
-        private readonly TaskManagementContext _context;
+        private readonly TaskManagementDBContext _context;
 
-        public UserRepository(TaskManagementContext context)
+        public UserRepository(TaskManagementDBContext context)
         {
             _context = context;
         }

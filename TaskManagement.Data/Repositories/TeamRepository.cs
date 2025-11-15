@@ -11,9 +11,9 @@ namespace TaskManagement.Data.Repositories
 {
     public class TeamRepository : ITeamRepository
     {
-        private readonly TaskManagementContext _context;
+        private readonly TaskManagementDBContext _context;
 
-        public TeamRepository(TaskManagementContext context)
+        public TeamRepository(TaskManagementDBContext context)
         {
             _context = context;
         }

@@ -56,3 +56,61 @@ Request: 2025-11-15 20:53 | GET /swagger/v1/swagger.json
 Response: 2025-11-15 20:53 | GET /swagger/v1/swagger.json | Status: 200
 Request: 2025-11-15 20:53 | GET /api/User
 Response: 2025-11-15 20:53 | GET /api/User | Status: 200
+Request: 2025-11-15 22:40 | GET /swagger/index.html
+Response: 2025-11-15 22:40 | GET /swagger/index.html | Status: 200
+Request: 2025-11-15 22:40 | GET /swagger/v1/swagger.json
+Response: 2025-11-15 22:40 | GET /swagger/v1/swagger.json | Status: 200
+Request: 2025-11-15 22:40 | GET /api/User
+Response: 2025-11-15 22:40 | GET /api/User | Status: 200
+Request: 2025-11-15 22:40 | DELETE /api/User/1
+Response: 2025-11-15 22:40 | DELETE /api/User/1 | Status: 200
+Request: 2025-11-15 22:40 | DELETE /api/User/1
+Response: 2025-11-15 22:40 | DELETE /api/User/1 | Status: 200
+Request: 2025-11-15 22:40 | DELETE /api/User/2
+Response: 2025-11-15 22:40 | DELETE /api/User/2 | Status: 200
+Request: 2025-11-15 22:40 | DELETE /api/User/2
+Response: 2025-11-15 22:40 | DELETE /api/User/2 | Status: 200
+Request: 2025-11-15 22:40 | DELETE /api/User/3
+Response: 2025-11-15 22:40 | DELETE /api/User/3 | Status: 200
+Request: 2025-11-15 22:40 | DELETE /api/User/3
+Response: 2025-11-15 22:40 | DELETE /api/User/3 | Status: 200
+Request: 2025-11-15 22:40 | GET /api/User
+Response: 2025-11-15 22:40 | GET /api/User | Status: 200
+Request: 2025-11-15 22:41 | GET /swagger/index.html
+Response: 2025-11-15 22:41 | GET /swagger/index.html | Status: 200
+Request: 2025-11-15 22:41 | GET /swagger/v1/swagger.json
+Response: 2025-11-15 22:41 | GET /swagger/v1/swagger.json | Status: 200
+Request: 2025-11-15 22:41 | GET /api/User
+Response: 2025-11-15 22:41 | GET /api/User | Status: 200
+Request: 2025-11-15 22:50 | GET /swagger/index.html
+Response: 2025-11-15 22:50 | GET /swagger/index.html | Status: 200
+Request: 2025-11-15 22:50 | GET /swagger/v1/swagger.json
+Response: 2025-11-15 22:50 | GET /swagger/v1/swagger.json | Status: 200
+Request: 2025-11-15 22:51 | GET /api/User
+Response: 2025-11-15 22:51 | GET /api/User | Status: 401
+Request: 2025-11-15 22:51 | POST /api/Auth/login
+Response: 2025-11-15 22:51 | POST /api/Auth/login | Status: 200
+Request: 2025-11-15 22:52 | GET /api/User
+Response: 2025-11-15 22:52 | GET /api/User | Status: 401
+Request: 2025-11-15 22:52 | GET /api/User
+Response: 2025-11-15 22:52 | GET /api/User | Status: 401
+Request: 2025-11-15 22:52 | POST /api/Auth/login
+Response: 2025-11-15 22:52 | POST /api/Auth/login | Status: 200
+Request: 2025-11-15 22:53 | GET /api/User
+Response: 2025-11-15 22:53 | GET /api/User | Status: 401
+Request: 2025-11-15 22:53 | GET /api/User
+Response: 2025-11-15 22:53 | GET /api/User | Status: 401
+Request: 2025-11-15 22:53 | GET /api/User
+Response: 2025-11-15 22:53 | GET /api/User | Status: 401
+Request: 2025-11-15 22:53 | GET /api/User
+Response: 2025-11-15 22:53 | GET /api/User | Status: 401
+Request: 2025-11-15 22:54 | GET /api/User
+Response: 2025-11-15 22:54 | GET /api/User | Status: 401
+Request: 2025-11-15 22:54 | GET /api/User
+Response: 2025-11-15 22:54 | GET /api/User | Status: 401
+Request: 2025-11-15 22:54 | POST /api/Auth/login
+Response: 2025-11-15 22:54 | POST /api/Auth/login | Status: 200
+Request: 2025-11-15 22:55 | GET /api/User
+Response: 2025-11-15 22:55 | GET /api/User | Status: 200
+Request: 2025-11-15 22:56 | POST /api/Auth/login
+Response: 2025-11-15 22:56 | POST /api/Auth/login | Status: 200

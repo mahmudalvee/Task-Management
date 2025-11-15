@@ -40,3 +40,7 @@ D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\staticwebassets.bu
 D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\staticwebassets.build.json
 D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\staticwebassets.build.json
 D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\staticwebassets.build.json
+D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\staticwebassets.build.json
+D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\staticwebassets.build.json
+D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\staticwebassets.build.json
+D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\staticwebassets.build.json

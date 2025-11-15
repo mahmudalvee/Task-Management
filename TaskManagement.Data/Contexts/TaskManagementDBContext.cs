@@ -4,14 +4,14 @@ using TaskManagement.Class;
 
 namespace TaskManagement.Data.Contexts
 {
-    public class TaskManagementContext : DbContext
+    public class TaskManagementDBContext : DbContext
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Team> Teams { get; set; }
         public DbSet<TTask> TTasks { get; set; }
         public DbSet<Notification> Notifications { get; set; }
 
-        public TaskManagementContext(DbContextOptions<TaskManagementContext> options) : base(options) { }
+        public TaskManagementDBContext(DbContextOptions<TaskManagementDBContext> options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

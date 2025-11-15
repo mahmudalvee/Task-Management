@@ -16,10 +16,10 @@ namespace TaskManagement.Service
         private readonly ITaskRepository _taskRepository;
         private readonly INotificationService _notificationService;
 
-        private readonly TaskManagementContext _context;
+        private readonly TaskManagementDBContext _context;
 
 
-        public TaskService(ITaskRepository taskRepository, INotificationService notificationService, TaskManagementContext context)
+        public TaskService(ITaskRepository taskRepository, INotificationService notificationService, TaskManagementDBContext context)
         {
             _taskRepository = taskRepository;
             _notificationService = notificationService;

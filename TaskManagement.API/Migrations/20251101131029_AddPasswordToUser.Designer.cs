@@ -10,7 +10,7 @@ using TaskManagement.Data.Contexts;
 
 namespace TaskManagement.API.Migrations
 {
-    [DbContext(typeof(TaskManagementContext))]
+    [DbContext(typeof(TaskManagementDBContext))]
     [Migration("20251101131029_AddPasswordToUser")]
     partial class AddPasswordToUser
     {

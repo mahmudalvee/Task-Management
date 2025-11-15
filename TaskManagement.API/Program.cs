@@ -20,7 +20,7 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Host.UseSerilog();
 
-builder.Services.AddDbContext<TaskManagementContext>(options =>
+builder.Services.AddDbContext<TaskManagementDBContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"),
         b => b.MigrationsAssembly("TaskManagement.API")));
 
@@ -94,6 +94,12 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<TaskManagementDBContext>();
+    SeedDB.Seed(context);  // db seeding
+}
 
 //log,error
 app.UseMiddleware<LoggingMiddleware>();

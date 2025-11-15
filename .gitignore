@@ -1,3 +1,14 @@
-.vs/
-bin/
-obj/
+*.dll
+*.exe
+*.pdb
+*.vshost.*
+*.app.config
+*.vs
+**/bin/
+**/obj/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+.vscode/
+.idea/

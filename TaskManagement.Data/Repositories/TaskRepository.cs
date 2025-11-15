@@ -12,9 +12,9 @@ namespace TaskManagement.Data.Repositories
 {
     public class TaskRepository : ITaskRepository
     {
-        private readonly TaskManagementContext _context;
+        private readonly TaskManagementDBContext _context;
 
-        public TaskRepository(TaskManagementContext context)
+        public TaskRepository(TaskManagementDBContext context)
         {
             _context = context;
         }

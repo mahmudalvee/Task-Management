@@ -6,6 +6,7 @@ D:\Selise Task\TaskManagement\TaskManagement\bin\Debug\net8.0\TaskManagement.dep
 D:\Selise Task\TaskManagement\TaskManagement\bin\Debug\net8.0\TaskManagement.runtimeconfig.json
 D:\Selise Task\TaskManagement\TaskManagement\bin\Debug\net8.0\TaskManagement.dll
 D:\Selise Task\TaskManagement\TaskManagement\bin\Debug\net8.0\TaskManagement.pdb
+D:\Selise Task\TaskManagement\TaskManagement\bin\Debug\net8.0\BCrypt.Net-Core.dll
 D:\Selise Task\TaskManagement\TaskManagement\bin\Debug\net8.0\Humanizer.dll
 D:\Selise Task\TaskManagement\TaskManagement\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Selise Task\TaskManagement\TaskManagement\bin\Debug\net8.0\Microsoft.Build.Locator.dll
@@ -143,6 +144,7 @@ D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\TaskManagement.Ass
 D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\TaskManagement.csproj.CoreCompileInputs.cache
 D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\TaskManagement.MvcApplicationPartsAssemblyInfo.cs
 D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\TaskManagement.MvcApplicationPartsAssemblyInfo.cache
+D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\TaskManagement.sourcelink.json
 D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\scopedcss\bundle\TaskManagement.styles.css
 D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\staticwebassets.build.json
 D:\Selise Task\TaskManagement\TaskManagement\obj\Debug\net8.0\staticwebassets.development.json

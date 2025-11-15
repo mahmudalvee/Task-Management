@@ -6,6 +6,7 @@ D:\Selise Task\TaskManagement\TaskManagement.Class\obj\Debug\net8.0\TaskManageme
 D:\Selise Task\TaskManagement\TaskManagement.Class\obj\Debug\net8.0\TaskManagement.Class.AssemblyInfoInputs.cache
 D:\Selise Task\TaskManagement\TaskManagement.Class\obj\Debug\net8.0\TaskManagement.Class.AssemblyInfo.cs
 D:\Selise Task\TaskManagement\TaskManagement.Class\obj\Debug\net8.0\TaskManagement.Class.csproj.CoreCompileInputs.cache
+D:\Selise Task\TaskManagement\TaskManagement.Class\obj\Debug\net8.0\TaskManagement.Class.sourcelink.json
 D:\Selise Task\TaskManagement\TaskManagement.Class\obj\Debug\net8.0\TaskManagement.Class.dll
 D:\Selise Task\TaskManagement\TaskManagement.Class\obj\Debug\net8.0\refint\TaskManagement.Class.dll
 D:\Selise Task\TaskManagement\TaskManagement.Class\obj\Debug\net8.0\TaskManagement.Class.pdb

@@ -16,10 +16,10 @@ namespace TaskManagement.API
     {
         private readonly IConfiguration _configuration;
         private readonly IUserService _userService;
-        private readonly TaskManagementContext _context;
+        private readonly TaskManagementDBContext _context;
 
 
-        public AuthController(TaskManagementContext context, IUserService userService, IConfiguration configuration)
+        public AuthController(TaskManagementDBContext context, IUserService userService, IConfiguration configuration)
         {
             _userService = userService;
             _configuration = configuration;
@@ -30,13 +30,20 @@ namespace TaskManagement.API
         public async Task<IActionResult> Login([FromBody] LoginRequest model)
         {
             //var users = await _userService.GetUsersAsync();
-            var user = _context.Users.Where(u => u.Email == model.Email && u.Password == model.Password).FirstOrDefault();     //password needs encrypt/hashing
+            var user = _context.Users.FirstOrDefault(u => u.Email == model.Email);
+
             if (user != null)
             {
-                var token = GenerateJwtToken(user);
-                return Ok(new { Token = token });
+                bool isPasswordValid = BCrypt.Net.BCrypt.Verify(model.Password, user.Password);
+
+                if (isPasswordValid)
+                {
+                    var token = this.GenerateJwtToken(user);
+                    return Ok(new { Token = token });
+                }
             }
-            return Unauthorized("Invalid email Or password");
+
+            return Unauthorized("Invalid email or password");
         }
 
         private string GenerateJwtToken(User user)

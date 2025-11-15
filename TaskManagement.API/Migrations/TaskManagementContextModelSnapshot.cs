@@ -9,7 +9,7 @@ using TaskManagement.Data.Contexts;
 
 namespace TaskManagement.API.Migrations
 {
-    [DbContext(typeof(TaskManagementContext))]
+    [DbContext(typeof(TaskManagementDBContext))]
     partial class TaskManagementContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -30,9 +30,8 @@ namespace TaskManagement.API.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
+                    b.Property<int>("UserId")
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 

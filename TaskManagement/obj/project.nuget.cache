@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8sFTISpo1ZA=",
+  "dgSpecHash": "rd4pvex24UA=",
   "success": true,
   "projectFilePath": "D:\\Selise Task\\TaskManagement\\TaskManagement\\TaskManagement.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\CELDEV\\.nuget\\packages\\bcrypt.net-core\\1.6.0\\bcrypt.net-core.1.6.0.nupkg.sha512",
     "C:\\Users\\CELDEV\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\CELDEV\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\CELDEV\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",

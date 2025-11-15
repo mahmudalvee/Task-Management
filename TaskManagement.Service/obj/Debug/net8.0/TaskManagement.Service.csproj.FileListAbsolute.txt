@@ -18,6 +18,7 @@ D:\Selise Task\TaskManagement\TaskManagement.Service\obj\Debug\net8.0\TaskManage
 D:\Selise Task\TaskManagement\TaskManagement.Service\obj\Debug\net8.0\TaskManagement.Service.AssemblyInfoInputs.cache
 D:\Selise Task\TaskManagement\TaskManagement.Service\obj\Debug\net8.0\TaskManagement.Service.AssemblyInfo.cs
 D:\Selise Task\TaskManagement\TaskManagement.Service\obj\Debug\net8.0\TaskManagement.Service.csproj.CoreCompileInputs.cache
+D:\Selise Task\TaskManagement\TaskManagement.Service\obj\Debug\net8.0\TaskManagement.Service.sourcelink.json
 D:\Selise Task\TaskManagement\TaskManagement.Service\obj\Debug\net8.0\TaskMana.2D938F65.Up2Date
 D:\Selise Task\TaskManagement\TaskManagement.Service\obj\Debug\net8.0\TaskManagement.Service.dll
 D:\Selise Task\TaskManagement\TaskManagement.Service\obj\Debug\net8.0\refint\TaskManagement.Service.dll
