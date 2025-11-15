@@ -1,0 +1,120 @@
+2025-11-02 03:31:20.382 +06:00 [INF] User profile is available. Using 'C:\Users\CELDEV\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-02 03:31:20.861 +06:00 [INF] Now listening on: https://localhost:7194
+2025-11-02 03:31:20.865 +06:00 [INF] Now listening on: http://localhost:5073
+2025-11-02 03:31:20.988 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-02 03:31:20.991 +06:00 [INF] Hosting environment: Development
+2025-11-02 03:31:20.993 +06:00 [INF] Content root path: D:\Selise Task\TaskManagement\TaskManagement.API
+2025-11-02 03:31:21.818 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/index.html - null null
+2025-11-02 03:31:22.023 +06:00 [INF] [11/2/2025 3:31:22 AM] GET /swagger/index.html
+2025-11-02 03:31:22.129 +06:00 [INF] Response Status: 200
+2025-11-02 03:31:22.139 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/index.html - 200 null text/html;charset=utf-8 321.7881ms
+2025-11-02 03:31:22.197 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-02 03:31:22.209 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/_vs/browserLink - null null
+2025-11-02 03:31:22.212 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 14.3229ms
+2025-11-02 03:31:22.279 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.006ms
+2025-11-02 03:31:22.819 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - null null
+2025-11-02 03:31:22.826 +06:00 [INF] [11/2/2025 3:31:22 AM] GET /swagger/v1/swagger.json
+2025-11-02 03:31:22.847 +06:00 [INF] Response Status: 200
+2025-11-02 03:31:22.850 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 30.2396ms
+2025-11-02 04:10:13.527 +06:00 [INF] User profile is available. Using 'C:\Users\CELDEV\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-02 04:10:13.883 +06:00 [INF] Now listening on: https://localhost:7194
+2025-11-02 04:10:13.887 +06:00 [INF] Now listening on: http://localhost:5073
+2025-11-02 04:10:13.996 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-02 04:10:13.999 +06:00 [INF] Hosting environment: Development
+2025-11-02 04:10:14.001 +06:00 [INF] Content root path: D:\Selise Task\TaskManagement\TaskManagement.API
+2025-11-02 04:10:14.603 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/index.html - null null
+2025-11-02 04:10:14.814 +06:00 [INF] [11/2/2025 4:10:14 AM] GET /swagger/index.html
+2025-11-02 04:10:14.928 +06:00 [INF] Response Status: 200
+2025-11-02 04:10:14.951 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-02 04:10:14.952 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/index.html - 200 null text/html;charset=utf-8 340.0666ms
+2025-11-02 04:10:14.951 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/_vs/browserLink - null null
+2025-11-02 04:10:15.536 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 584.9494ms
+2025-11-02 04:10:15.595 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 644.4163ms
+2025-11-02 04:10:15.639 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - null null
+2025-11-02 04:10:15.647 +06:00 [INF] [11/2/2025 4:10:15 AM] GET /swagger/v1/swagger.json
+2025-11-02 04:10:15.671 +06:00 [INF] Response Status: 200
+2025-11-02 04:10:15.673 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.6098ms
+2025-11-02 04:11:16.002 +06:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-11-02 04:11:16.146 +06:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsLock' AND "type" = 'table';
+2025-11-02 04:11:16.200 +06:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT OR IGNORE INTO "__EFMigrationsLock"("Id", "Timestamp") VALUES(1, '2025-11-01 22:11:16.1571948+00:00');
+SELECT changes();
+2025-11-02 04:11:16.315 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2025-11-02 04:11:16.325 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2025-11-02 04:11:16.328 +06:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-11-02 04:11:16.347 +06:00 [INF] Applying migration '20251101221051_Notification'.
+2025-11-02 04:11:16.366 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Notifications" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Notifications" PRIMARY KEY AUTOINCREMENT,
+    "Message" TEXT NOT NULL,
+    "UserId" TEXT NOT NULL,
+    "CreatedAt" TEXT NOT NULL
+);
+2025-11-02 04:11:16.367 +06:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20251101221051_Notification', '9.0.10');
+2025-11-02 04:11:16.419 +06:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "__EFMigrationsLock";
+2025-11-02 04:47:51.440 +06:00 [INF] User profile is available. Using 'C:\Users\CELDEV\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-02 04:47:51.883 +06:00 [INF] Now listening on: https://localhost:7194
+2025-11-02 04:47:51.887 +06:00 [INF] Now listening on: http://localhost:5073
+2025-11-02 04:47:52.037 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-02 04:47:52.040 +06:00 [INF] Hosting environment: Development
+2025-11-02 04:47:52.043 +06:00 [INF] Content root path: D:\Selise Task\TaskManagement\TaskManagement.API
+2025-11-02 04:47:52.276 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/index.html - null null
+2025-11-02 04:47:52.427 +06:00 [INF] [11/2/2025 4:47:52 AM] GET /swagger/index.html
+2025-11-02 04:47:52.510 +06:00 [INF] Response Status: 200
+2025-11-02 04:47:52.548 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-02 04:47:52.552 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/_vs/browserLink - null null
+2025-11-02 04:47:53.192 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/index.html - 200 null text/html;charset=utf-8 286.6666ms
+2025-11-02 04:47:53.205 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 656.2249ms
+2025-11-02 04:47:53.245 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 692.5528ms
+2025-11-02 04:47:53.302 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - null null
+2025-11-02 04:47:53.309 +06:00 [INF] [11/2/2025 4:47:53 AM] GET /swagger/v1/swagger.json
+2025-11-02 04:47:53.333 +06:00 [INF] Response Status: 200
+2025-11-02 04:47:53.337 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.7788ms
+2025-11-02 04:48:45.698 +06:00 [INF] User profile is available. Using 'C:\Users\CELDEV\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-02 04:48:45.949 +06:00 [INF] Now listening on: https://localhost:7194
+2025-11-02 04:48:45.953 +06:00 [INF] Now listening on: http://localhost:5073
+2025-11-02 04:48:46.056 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-02 04:48:46.059 +06:00 [INF] Hosting environment: Development
+2025-11-02 04:48:46.060 +06:00 [INF] Content root path: D:\Selise Task\TaskManagement\TaskManagement.API
+2025-11-02 04:48:46.357 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/index.html - null null
+2025-11-02 04:48:46.513 +06:00 [INF] [11/2/2025 4:48:46 AM] GET /swagger/index.html
+2025-11-02 04:48:46.590 +06:00 [INF] Response Status: 200
+2025-11-02 04:48:46.608 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/index.html - 200 null text/html;charset=utf-8 245.2154ms
+2025-11-02 04:48:46.611 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/_vs/browserLink - null null
+2025-11-02 04:48:46.612 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-02 04:48:46.646 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 34.4944ms
+2025-11-02 04:48:46.687 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.0461ms
+2025-11-02 04:48:46.727 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - null null
+2025-11-02 04:48:46.732 +06:00 [INF] [11/2/2025 4:48:46 AM] GET /swagger/v1/swagger.json
+2025-11-02 04:48:46.753 +06:00 [INF] Response Status: 200
+2025-11-02 04:48:46.757 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 30.1696ms
+2025-11-02 05:38:28.422 +06:00 [INF] User profile is available. Using 'C:\Users\CELDEV\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-02 05:38:29.081 +06:00 [INF] Now listening on: https://localhost:7194
+2025-11-02 05:38:29.097 +06:00 [INF] Now listening on: http://localhost:5073
+2025-11-02 05:38:29.389 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-02 05:38:29.392 +06:00 [INF] Hosting environment: Development
+2025-11-02 05:38:29.394 +06:00 [INF] Content root path: D:\Selise Task\TaskManagement\TaskManagement.API
+2025-11-02 05:38:29.839 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/index.html - null null
+2025-11-02 05:38:30.036 +06:00 [INF] [11/2/2025 5:38:30 AM] GET /swagger/index.html
+2025-11-02 05:38:30.162 +06:00 [INF] Response Status: 200
+2025-11-02 05:38:30.171 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/index.html - 200 null text/html;charset=utf-8 332.6557ms
+2025-11-02 05:38:30.184 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/_vs/browserLink - null null
+2025-11-02 05:38:30.184 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-02 05:38:30.225 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - 200 13788 application/javascript; charset=utf-8 40.9202ms
+2025-11-02 05:38:30.264 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.6152ms
+2025-11-02 05:38:30.321 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - null null
+2025-11-02 05:38:30.328 +06:00 [INF] [11/2/2025 5:38:30 AM] GET /swagger/v1/swagger.json
+2025-11-02 05:38:30.354 +06:00 [INF] Response Status: 200
+2025-11-02 05:38:30.361 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.7827ms

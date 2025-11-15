@@ -1,0 +1,20 @@
+2025-11-06 21:47:24.905 +06:00 [INF] User profile is available. Using 'C:\Users\CELDEV\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-06 21:47:25.224 +06:00 [INF] Creating key {fb18db55-38af-4af2-b829-7b4c7aee5719} with creation date 2025-11-06 15:47:25Z, activation date 2025-11-08 15:25:30Z, and expiration date 2026-02-04 15:47:25Z.
+2025-11-06 21:47:25.247 +06:00 [INF] Writing data to file 'C:\Users\CELDEV\AppData\Local\ASP.NET\DataProtection-Keys\key-fb18db55-38af-4af2-b829-7b4c7aee5719.xml'.
+2025-11-06 21:47:25.776 +06:00 [INF] Now listening on: https://localhost:7194
+2025-11-06 21:47:25.779 +06:00 [INF] Now listening on: http://localhost:5073
+2025-11-06 21:47:25.954 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-06 21:47:25.957 +06:00 [INF] Hosting environment: Development
+2025-11-06 21:47:25.959 +06:00 [INF] Content root path: D:\Selise Task\TaskManagement\TaskManagement.API
+2025-11-06 21:47:28.075 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/index.html - null null
+2025-11-06 21:47:28.305 +06:00 [INF] [11/6/2025 9:47:28 PM] GET /swagger/index.html
+2025-11-06 21:47:28.418 +06:00 [INF] Response Status: 200
+2025-11-06 21:47:28.427 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/index.html - 200 null text/html;charset=utf-8 354.1143ms
+2025-11-06 21:47:28.484 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-06 21:47:28.474 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/_vs/browserLink - null null
+2025-11-06 21:47:28.506 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/_framework/aspnetcore-browser-refresh.js - 200 13787 application/javascript; charset=utf-8 21.6666ms
+2025-11-06 21:47:28.576 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 101.2523ms
+2025-11-06 21:47:28.741 +06:00 [INF] Request starting HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - null null
+2025-11-06 21:47:28.748 +06:00 [INF] [11/6/2025 9:47:28 PM] GET /swagger/v1/swagger.json
+2025-11-06 21:47:28.789 +06:00 [INF] Response Status: 200
+2025-11-06 21:47:28.797 +06:00 [INF] Request finished HTTP/2 GET https://localhost:7194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.5247ms
